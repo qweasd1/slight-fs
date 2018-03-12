@@ -1,0 +1,33 @@
+{
+  "name": "typescript-debug",
+  "version": "0.0.1",
+  "dependencies": {
+    "glob": "^7.1.2",
+    "mkdirp": "^0.5.1"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.js",
+  "devDependencies": {
+    "@types/core-js": "^0.9.46",
+    "@types/es6-collections": "^0.5.31",
+    "@types/jest": "^22.1.4",
+    "@types/node": "^9.4.0",
+    "jest": "^22.4.2",
+    "ts-jest": "^22.4.1",
+    "typescript": "^2.7.2"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "/test/.*Test[.]ts$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  }
+}
